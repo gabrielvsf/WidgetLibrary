@@ -50,3 +50,38 @@ class BotaoR extends StatelessWidget{
   BotaoR({this.color});
 
   final Color color;
+  
+    @override
+  Widget build(BuildContext context){
+    return FlatButton(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18.0),
+            side: BorderSide(color: color)
+        ),
+        color: color,
+        padding: EdgeInsets.all(8.0),
+        onPressed: () {},
+        child: Text(
+        "Botão Redondo",
+        ),
+    );
+  }
+}
+
+class BotaoBaseR extends BotaoR {
+  BotaoBaseR() :super(
+      color: Colors.grey
+  );
+}
+
+class BotaoAmareloR extends BotaoR {
+  BotaoAmareloR() :super(
+      color: Colors.yellow
+  );
+}
+
+class BotaoAzulR extends BotaoR {
+  BotaoAzulR() :super(
+      color: Colors.blue
+  );
+}
