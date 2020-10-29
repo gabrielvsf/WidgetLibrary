@@ -3,6 +3,66 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
+    home: Scaffold(
+      body: Container(
+        child: Center(
+          child: Column(
+            children: [
+              Text(
+                'Botões',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                height:40,
+              ),
+              Row(
+              children: [
+                SizedBox(
+                  width:200,
+                ),
+                BotaoBase(
+               ),
+               SizedBox(
+                  width:40,
+                ),
+                BotaoAzul(
+                ),
+                SizedBox(
+                  width:40,
+                ),
+                BotaoVerde(
+                ),
+              ],
+            ),
+              SizedBox(
+                height:40,
+              ),
+              Row(
+                children: [
+                  SizedBox(
+                    width:200,
+                  ),
+                  BotaoBaseR(
+                  ),
+                  SizedBox(
+                    width:90,
+                  ),
+                  BotaoAzulR(
+                  ),
+                  SizedBox(
+                    width:90,
+                  ),
+                  BotaoAmareloR(
+                  ),
+                ],
+              ),
+              SizedBox(
+                height:40,
+              ),
   ),
   );
 }
