@@ -63,6 +63,81 @@ void main() {
               SizedBox(
                 height:40,
               ),
+              Text(
+                'Textos',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto base',
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto bem pequeno',
+                style: TextStyle(
+                  fontSize: 8,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto de tamanho médio',
+                style: TextStyle(
+                  fontSize: 15,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto grande',
+                style: TextStyle(
+                  fontSize: 28,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto gigante',
+                style: TextStyle(
+                  fontSize: 40,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto em negrito',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+              Text(
+                'Um texto em itálico',
+                style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+              SizedBox(
+                height:10,
+              ),
+            ],
+          ),
+          ),
+        ),
+      ),
   ),
   );
 }
