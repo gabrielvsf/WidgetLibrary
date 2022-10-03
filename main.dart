@@ -59,6 +59,11 @@ void main() {
                   ),
                   BotaoAmareloR(
                   ),
+                  SizedBox(
+                    width:90,
+                  ),
+                  BotaoVerdeR(
+                  ),
                 ],
               ),
               SizedBox(
@@ -220,6 +225,12 @@ class BotaoAmareloR extends BotaoR {
   BotaoAmareloR() :super(
       color: Colors.yellow
   );
+}
+
+class BotaoVerdeR extends BotaoR{
+  BotaoVerde() :super{
+      color: Colors.green
+  };
 }
 
 class BotaoAzulR extends BotaoR {
