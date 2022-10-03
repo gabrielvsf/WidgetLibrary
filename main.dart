@@ -182,6 +182,12 @@ class BotaoAzul extends Botao {
   );
 }
 
+class BotaoRoxo extends Botao {
+  BotaoRoxo() :super(
+      color: Colors.purple
+  );
+}
+
 class BotaoR extends StatelessWidget{
   BotaoR({this.color});
 
