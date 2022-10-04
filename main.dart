@@ -245,6 +245,12 @@ class BotaoVerdeR extends BotaoR{
   };
 }
 
+class BotaoVermelhoR extends BotaoR{
+  BotaoVermelho() :super{
+      color: Colors.red
+  };
+}
+
 class BotaoAzulR extends BotaoR {
   BotaoAzulR() :super(
       color: Colors.blue
