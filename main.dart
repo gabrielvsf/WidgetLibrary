@@ -181,6 +181,12 @@ class BotaoVerde extends Botao {
   );
 }
 
+class BotaoPreto extends Botao {
+  BotaoPreto() :super(
+  color: Colors.black
+  );
+}
+
 class BotaoAzul extends Botao {
   BotaoAzul() :super(
       color: Colors.blue
