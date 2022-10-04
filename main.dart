@@ -122,6 +122,15 @@ void main() {
                 height:10,
               ),
               Text(
+                'Um texto testado',
+                style: TextStyle(
+                  fontSize: 140,
+                ),
+              ),
+              SizedBox(
+                height:110,
+              ),
+              Text(
                 'Um texto em negrito',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -190,6 +199,12 @@ class BotaoPreto extends Botao {
 class BotaoAzul extends Botao {
   BotaoAzul() :super(
       color: Colors.blue
+  );
+}
+
+class BotaoBranco extends Botao {
+  BotaoBranco() :super(
+      color: Colors.white
   );
 }
 
