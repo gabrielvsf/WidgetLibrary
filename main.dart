@@ -33,7 +33,7 @@ void main() {
                 BotaoAzul(
                 ),
                 SizedBox(
-                  width:40,
+                  width:30,
                 ),
                 GreenBtn(
                 ),
