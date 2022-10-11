@@ -196,6 +196,12 @@ class BotaoPreto extends Buttom {
   );
 }
 
+class BotaoRosa extends Buttom {
+  BotaoPreto() :super(
+  color: Colors.pink
+  );
+}
+
 class BotaoAzul extends Buttom {
   BotaoAzul() :super(
       color: Colors.blue
