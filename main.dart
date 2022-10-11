@@ -50,7 +50,7 @@ void main() {
                   BotaoBaseR(
                   ),
                   SizedBox(
-                    width:90,
+                    width:200,
                   ),
                  BlueBtnR(
                   ),
