@@ -40,7 +40,7 @@ void main() {
               ],
             ),
               SizedBox(
-                height:40,
+                height:20,
               ),
               Row(
                 children: [
