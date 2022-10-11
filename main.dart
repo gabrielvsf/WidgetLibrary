@@ -25,7 +25,7 @@ void main() {
                 SizedBox(
                   width:200,
                 ),
-                BotaoBase(
+                BaseButtom(
                ),
                SizedBox(
                   width:40,
@@ -35,7 +35,7 @@ void main() {
                 SizedBox(
                   width:40,
                 ),
-                BotaoVerde(
+                GreenBtn(
                 ),
               ],
             ),
@@ -52,17 +52,17 @@ void main() {
                   SizedBox(
                     width:90,
                   ),
-                  BotaoAzulR(
+                 BlueBtnR(
                   ),
                   SizedBox(
                     width:90,
                   ),
-                  BotaoAmareloR(
+                  YellowBtnR(
                   ),
                   SizedBox(
                     width:90,
                   ),
-                  BotaoVerdeR(
+                  GreenBtnR(
                   ),
                 ],
               ),
@@ -157,8 +157,8 @@ void main() {
   );
 }
 
-class Botao extends StatelessWidget{
-  Botao({this.color});
+class Button extends StatelessWidget{
+  Button({this.color});
 
   final Color color;
 
@@ -178,43 +178,43 @@ class Botao extends StatelessWidget{
     }
   }
 
-class BotaoBase extends Botao {
-  BotaoBase() :super(
+class BaseButtom extends Buttom {
+  BaseButtom() :super(
       color: Colors.grey
   );
 }
 
-class BotaoVerde extends Botao {
+class BotaoVerde extends Buttom {
   BotaoVerde() :super(
   color: Colors.green
   );
 }
 
-class BotaoPreto extends Botao {
+class BotaoPreto extends Buttom {
   BotaoPreto() :super(
   color: Colors.black
   );
 }
 
-class BotaoAzul extends Botao {
+class BotaoAzul extends Buttom {
   BotaoAzul() :super(
       color: Colors.blue
   );
 }
 
-class BotaoBranco extends Botao {
+class BotaoBranco extends Buttom {
   BotaoBranco() :super(
       color: Colors.white
   );
 }
 
-class BotaoVermelho extends Botao {
+class BotaoVermelho extends Buttom {
   BotaoVermelho() :super(
       color: Colors.red
   );
 }
 
-class BotaoRoxo extends Botao {
+class BotaoRoxo extends Buttom {
   BotaoRoxo() :super(
       color: Colors.purple
   );
