@@ -202,25 +202,25 @@ class BotaoRosa extends Button {
   );
 }
 
-class BotaoAzul extends Buttom {
+class BotaoAzul extends Button {
   BotaoAzul() :super(
       color: Colors.blue
   );
 }
 
-class BotaoBranco extends Buttom {
+class BotaoBranco extends Button {
   BotaoBranco() :super(
       color: Colors.white
   );
 }
 
-class BotaoVermelho extends Buttom {
+class BotaoVermelho extends Button {
   BotaoVermelho() :super(
       color: Colors.red
   );
 }
 
-class BotaoRoxo extends Buttom {
+class BotaoRoxo extends Button {
   BotaoRoxo() :super(
       color: Colors.purple
   );
