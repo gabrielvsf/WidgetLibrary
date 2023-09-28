@@ -178,25 +178,25 @@ class Button extends StatelessWidget{
     }
   }
 
-class BaseButtom extends Buttom {
+class BaseButtom extends Button {
   BaseButtom() :super(
       color: Colors.grey
   );
 }
 
-class BotaoVerde extends Buttom {
+class BotaoVerde extends Button {
   BotaoVerde() :super(
   color: Colors.green
   );
 }
 
-class BotaoPreto extends Buttom {
+class BotaoPreto extends Button {
   BotaoPreto() :super(
   color: Colors.black
   );
 }
 
-class BotaoRosa extends Buttom {
+class BotaoRosa extends Button {
   BotaoPreto() :super(
   color: Colors.pink
   );
